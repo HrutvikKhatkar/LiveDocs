@@ -13,7 +13,7 @@ export default function Page() {
         <title>sentry-example-page</title>
         <meta name="description" content="Test Sentry for your Next.js app!" />
       </Head>
-      
+
       <main>
         <div className="flex-spacer" />
         <svg height="40" width="40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -55,13 +55,13 @@ export default function Page() {
         ) : (
           <div className="success_placeholder" />
         )}
-        
+
         <div className="flex-spacer" />
         <p className="description">
           Adblockers will prevent errors from being sent to Sentry.
         </p>
       </main>
-          
+
       <style>{`
         main {
           display: flex;
