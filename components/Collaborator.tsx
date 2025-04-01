@@ -25,7 +25,7 @@ const Collaborator = ({
 
     setLoading(false);
   };
-  const removeCollaboratorHnadler = async (email: string) => {
+  const removeCollaboratorHandler = async (email: string) => {
     setLoading(false);
 
     await removeCollaborator({roomId, email});
@@ -67,7 +67,7 @@ const Collaborator = ({
           />
           <Button
             type="button"
-            onClick={() => removeCollaboratorHnadler(collaborator.email)}
+            onClick={() => removeCollaboratorHandler(collaborator.email)}
           >
             Remove
           </Button>

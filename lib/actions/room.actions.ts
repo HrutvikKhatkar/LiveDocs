@@ -3,7 +3,7 @@
 import {nanoid} from 'nanoid';
 import { liveblocks } from '../liveblocks';
 import { revalidatePath } from 'next/cache';
-import { parseStringify } from '../utils';
+import { getAccessType, parseStringify } from '../utils';
 import { root } from 'postcss';
 import { RoomProvider } from '@liveblocks/react';
 import { redirect } from 'next/navigation';
@@ -27,7 +27,7 @@ export const createDocument = async ({userId, email}:
         const room  = await liveblocks.createRoom(roomId, {
             metadata,
             usersAccesses,
-            defaultAccesses: ['room:write']
+            defaultAccesses: []
         });
 
         revalidatePath("/");
