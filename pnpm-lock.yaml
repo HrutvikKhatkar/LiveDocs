@@ -65,6 +65,9 @@ dependencies:
   lexical:
     specifier: ^0.24.0
     version: 0.24.0
+  livedoc:
+    specifier: 'file:'
+    version: file:(@babel/core@7.26.10)(@lexical/yjs@0.24.0)(@opentelemetry/api@1.9.0)(@opentelemetry/context-async-hooks@1.30.1)(@opentelemetry/core@1.30.1)(@opentelemetry/instrumentation@0.57.2)(@opentelemetry/sdk-trace-base@1.30.1)(@types/react-dom@18.3.5)(@types/react@18.3.20)(postcss@8.5.3)(tailwindcss@3.4.17)(webpack@5.98.0)(yjs@13.6.24)
   lucide-react:
     specifier: ^0.482.0
     version: 0.482.0(react@18.3.1)
@@ -4596,4 +4599,60 @@ packages:
   /yocto-queue@0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
+    dev: false
+
+  file:(@babel/core@7.26.10)(@lexical/yjs@0.24.0)(@opentelemetry/api@1.9.0)(@opentelemetry/context-async-hooks@1.30.1)(@opentelemetry/core@1.30.1)(@opentelemetry/instrumentation@0.57.2)(@opentelemetry/sdk-trace-base@1.30.1)(@types/react-dom@18.3.5)(@types/react@18.3.20)(postcss@8.5.3)(tailwindcss@3.4.17)(webpack@5.98.0)(yjs@13.6.24):
+    resolution: {directory: '', type: directory}
+    id: 'file:'
+    name: livedoc
+    dependencies:
+      '@clerk/nextjs': 6.12.12(next@14.2.26)(react-dom@18.3.1)(react@18.3.1)
+      '@clerk/themes': 2.2.26
+      '@lexical/react': 0.24.0(react-dom@18.3.1)(react@18.3.1)(yjs@13.6.24)
+      '@liveblocks/client': 2.22.2
+      '@liveblocks/core': 2.22.2
+      '@liveblocks/node': 2.22.2
+      '@liveblocks/react': 2.22.2(react@18.3.1)
+      '@liveblocks/react-lexical': 2.22.2(@lexical/react@0.24.0)(@lexical/yjs@0.24.0)(@types/react-dom@18.3.5)(@types/react@18.3.20)(lexical@0.24.0)(react-dom@18.3.1)(react@18.3.1)
+      '@liveblocks/react-ui': 2.22.2(@types/react-dom@18.3.5)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@radix-ui/react-dialog': 1.1.6(@types/react-dom@18.3.5)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@radix-ui/react-label': 2.1.2(@types/react-dom@18.3.5)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@radix-ui/react-popover': 1.1.6(@types/react-dom@18.3.5)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@radix-ui/react-select': 2.1.6(@types/react-dom@18.3.5)(@types/react@18.3.20)(react-dom@18.3.1)(react@18.3.1)
+      '@radix-ui/react-slot': 1.1.2(@types/react@18.3.20)(react@18.3.1)
+      '@sentry/nextjs': 9.10.1(@opentelemetry/context-async-hooks@1.30.1)(@opentelemetry/core@1.30.1)(@opentelemetry/instrumentation@0.57.2)(@opentelemetry/sdk-trace-base@1.30.1)(next@14.2.26)(react@18.3.1)(webpack@5.98.0)
+      autoprefixer: 10.4.21(postcss@8.5.3)
+      class-variance-authority: 0.7.1
+      clsx: 2.1.1
+      jsm-editor: 0.0.12(@lexical/react@0.24.0)(@types/react@18.3.20)(lexical@0.24.0)
+      lexical: 0.24.0
+      lucide-react: 0.482.0(react@18.3.1)
+      nanoid: 5.1.5
+      next: 14.2.26(@babel/core@7.26.10)(@opentelemetry/api@1.9.0)(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      tailwind-merge: 2.6.0
+      tailwindcss-animate: 1.0.7(tailwindcss@3.4.17)
+    transitivePeerDependencies:
+      - '@babel/core'
+      - '@lexical/rich-text'
+      - '@lexical/selection'
+      - '@lexical/utils'
+      - '@lexical/yjs'
+      - '@opentelemetry/api'
+      - '@opentelemetry/context-async-hooks'
+      - '@opentelemetry/core'
+      - '@opentelemetry/instrumentation'
+      - '@opentelemetry/sdk-trace-base'
+      - '@playwright/test'
+      - '@types/react'
+      - '@types/react-dom'
+      - babel-plugin-macros
+      - encoding
+      - postcss
+      - sass
+      - supports-color
+      - tailwindcss
+      - webpack
+      - yjs
     dev: false
