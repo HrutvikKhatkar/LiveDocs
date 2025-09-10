@@ -1,6 +1,6 @@
 # 📄 LiveDocs – Real-Time Collaborative Document Editor
 
-![LiveDocs Banner](assets/livedocs-login.png)
+![LiveDocs Banner](./public/assets/images/livedocs-login.png)
 
 ## 📌 Introduction
 LiveDocs is a **real-time collaborative document editing platform** inspired by Google Docs and Notion.  
@@ -69,16 +69,16 @@ Visit `http://localhost:3000` to access the app.
 ## 🖼️ Example Screenshots
 
 ### 🔹 Real-Time Editing  
-![Real-Time Editing](assets/realtime-edit.png)
+![Real-Time Editing](./public/assets/images/realtime-edit.png)
 
 ### 🔹 Commenting & Emoji Reactions  
-![Comments & Emojis](assets/comments-reactions.png)
+![Comments & Emojis](./public/assets/images/comments-reactions.png)
 
 ### 🔹 Image Upload Support  
-![Image Upload](assets/image-upload.png)
+![Image Upload](./public/assets/images/image-upload.png)
 
 ### 🔹 Role-Based Permissions  
-![Access Control](assets/permissions.png)
+![Access Control](./public/assets/images/permissions.png)
 
 ---
 
