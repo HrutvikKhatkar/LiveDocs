@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📄 LiveDocs – Real-Time Collaborative Document Editor
 
-## Getting Started
+![LiveDocs Banner](assets/livedocs-banner.png)
 
-First, run the development server:
+## 📌 Introduction
+LiveDocs is a **real-time collaborative document editing platform** inspired by Google Docs and Notion.  
+It enables multiple users to **co-edit documents simultaneously**, add contextual comments, react with emojis, and embed media — all in a secure and responsive environment.
+
+---
+
+## 🚀 Features
+- **Real-Time Editing** – Multiple users can co-edit documents without conflicts.  
+- **Role-Based Access Control** – Manage collaborators with `edit` or `view` permissions.  
+- **Interactive Communication** – Inline comments, threaded discussions, and emoji reactions.  
+- **Image Uploading** – Upload and embed media directly into documents.  
+- **Responsive UI** – Works across devices and browsers.  
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React.js, HTML, CSS, JavaScript  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+- **Real-time Communication:** Socket.IO  
+- **Media Handling:** Cloudinary / FileStack  
+- **Deployment:** Vercel / Render  
+
+---
+
+## ⚙️ Installation & Setup
+Clone the repository:
+
+```bash
+git clone <your-repo-link>
+cd livedocs
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit `http://localhost:3000` to access the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📂 Project Structure
+```
+├── backend/          # Express.js APIs + Socket.IO server
+├── frontend/         # React.js client
+├── models/           # MongoDB collections
+│   ├── users.js
+│   ├── documents.js
+│   ├── permissions.js
+│   ├── comments.js
+│   └── reactions.js
+└── README.md
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🖼️ Example Screenshots
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🔹 Real-Time Editing  
+![Real-Time Editing](assets/realtime-edit.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 🔹 Commenting & Emoji Reactions  
+![Comments & Emojis](assets/comments-reactions.png)
 
-## Deploy on Vercel
+### 🔹 Image Upload Support  
+![Image Upload](assets/image-upload.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🔹 Role-Based Permissions  
+![Access Control](assets/permissions.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+## 📊 Results & Insights
+- Real-time synchronization **enhances collaborative workflows**.  
+- **Threaded comments and emoji reactions** boost team communication.  
+- Socket.IO provides **low-latency updates**, even with multiple users.  
+- MongoDB schema ensures **scalability and modularity**.  
+
+---
+
+## ⚠️ Limitations
+- Performance may degrade with **very large documents**.  
+- Lacks **offline support** and **version history tracking**.  
+- Mobile experience needs further optimization.  
+- Advanced security (e.g., encryption) yet to be added.  
+
+---
+
+## 🔮 Future Enhancements
+- 📌 Version control with edit history.  
+- 📌 AI-powered grammar suggestions & summarization.  
+- 📌 Audio/Video calls inside the editor.  
+- 📌 Markdown, code snippet & chart embedding.  
+- 📌 Google Drive/Dropbox integration.  
+
+---
+
+## 📌 Conclusion
+LiveDocs demonstrates the power of **full-stack development** combined with **real-time communication**.  
+It is a scalable and functional collaborative platform that lays the foundation for **future AI-driven, plugin-extensible, and mobile-ready solutions**.
+
+---
+
+✨ *Developed as part of an academic full-stack web development project.*
