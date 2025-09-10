@@ -10,7 +10,7 @@ export const getClerkUsers = async ({ userIds }: { userIds: string[] }) => {
 
     // console.log("Clerk client properties:", Object.keys(client)); // Debugging
     // console.log("Fetching users for:", userIds);
-
+    
     const { data } = await client.users.getUserList({
       emailAddress: userIds.length ? userIds : undefined, 
     });
