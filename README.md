@@ -1,6 +1,6 @@
 # 📄 LiveDocs – Real-Time Collaborative Document Editor
 
-![LiveDocs Banner](assets/livedocs-banner.png)
+![LiveDocs Banner](assets/livedocs-login.png)
 
 ## 📌 Introduction
 LiveDocs is a **real-time collaborative document editing platform** inspired by Google Docs and Notion.  
