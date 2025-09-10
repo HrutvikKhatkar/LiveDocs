@@ -74,8 +74,8 @@ Visit `http://localhost:3000` to access the app.
 ### 🔹 Commenting & Emoji Reactions  
 ![Comments & Emojis](./public/assets/images/comments-reactions.png)
 
-### 🔹 Image Upload Support  
-![Image Upload](./public/assets/images/image-upload.png)
+### 🔹 Account Setting
+![Image Upload](./public/assets/images/account-setting.png.png)
 
 ### 🔹 Role-Based Permissions  
 ![Access Control](./public/assets/images/permissions.png)
